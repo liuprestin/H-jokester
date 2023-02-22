@@ -9,7 +9,7 @@ const VoiceRSS={speech:function(e){this._validate(e),this._request(e)},_validate
 
 // function test() {
 //     VoiceRSS.speech({
-//         key: '3d03f76b379d4ec5ab5ddaf3bc05f130',
+//         key: '',
 //         src: 'Hello, world!',
 //         hl: 'en-us',
 //         v: 'Linda',
@@ -39,7 +39,7 @@ async function getJokes(){
         }
 
         VoiceRSS.speech({
-                    key: '3d03f76b379d4ec5ab5ddaf3bc05f130',
+                    key: '',
                     src: joke,
                     hl: 'en-us',
                     v: 'Linda',
